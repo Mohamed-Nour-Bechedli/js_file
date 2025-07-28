@@ -85,7 +85,7 @@ function isprime(num){
     const sqrtnum=Math.sqrt(num);
     for(let i=3;i<=sqrtnum;i+=2){
         if(num%i===0){
-            return flase;
+            return false;
         }
     }
     return true;
